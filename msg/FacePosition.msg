@@ -1,0 +1,4 @@
+geometry_msgs/Pose2D lt
+geometry_msgs/Pose2D rt
+geometry_msgs/Pose2D lb
+geometry_msgs/Pose2D rb
