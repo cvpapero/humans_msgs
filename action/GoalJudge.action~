@@ -1,0 +1,8 @@
+#goal definition
+string name
+int32 okao_id
+---
+#result definition
+string status
+---
+#feedback

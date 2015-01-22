@@ -1,0 +1,9 @@
+#goal definition
+string name
+int32 okao_id
+int64 tracking_id
+---
+#result definition
+string status
+---
+#feedback

@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
 )
-
+find_package(catkin REQUIRED genmsg actionlib_msgs actionlib)
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -54,21 +54,25 @@ add_message_files(
   Body.msg
   Human.msg
   Humans.msg
+  HumanAndImageArray.msg
+  PersonPoseImg.msg
+  PersonPoseImgArray.msg
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
+add_service_files(
+  FILES
 #   Service1.srv
-#   Service2.srv
-# )
+  HumanSrv.srv
+  HumansSrv.srv
+)
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
+add_action_files(
+  FILES
+  GoalJudge.action
 #   Action2.action
-# )
+)
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
@@ -76,6 +80,8 @@ generate_messages(
   sensor_msgs
   geometry_msgs
   std_msgs
+  humans_msgs
+  actionlib_msgs
 )
 
 
