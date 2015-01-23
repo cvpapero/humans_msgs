@@ -56,7 +56,7 @@ add_message_files(
   Humans.msg
   HumanAndImageArray.msg
   PersonPoseImg.msg
-  #PersonPoseImgArray.msg
+  PersonPoseImgArray.msg
 )
 
 ## Generate services in the 'srv' folder
