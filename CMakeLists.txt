@@ -65,6 +65,7 @@ add_service_files(
 #   Service1.srv
   HumanSrv.srv
   HumansSrv.srv
+  Int32.srv
 )
 
 ## Generate actions in the 'action' folder
