@@ -48,7 +48,9 @@ find_package(catkin REQUIRED genmsg actionlib_msgs actionlib)
 add_message_files(
   FILES
   FacePosition.msg
-  Gaze.msg
+  DegConf.msg	
+  XYConf.msg
+  Direction.msg
   Person.msg
   Face.msg
   Joints.msg
