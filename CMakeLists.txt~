@@ -64,7 +64,15 @@ add_service_files(
   FILES
 #   Service1.srv
   HumanSrv.srv
+  HumanImgSrv.srv
   HumansSrv.srv
+  Int32.srv
+  Int32Srv.srv
+  DatabaseSrv.srv
+  ImageSrv.srv
+  QuerySrv.srv
+  StringSrv.srv
+  TimeZoneSrv.srv
 )
 
 ## Generate actions in the 'action' folder

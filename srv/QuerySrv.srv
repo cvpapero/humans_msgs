@@ -1,0 +1,10 @@
+int32[] d_id
+int32[] okao_id
+string[] time_stamp
+string[] name
+string[] laboratory
+string[] grade
+int64[] tracking_id
+geometry_msgs/Point[] area
+---
+humans_msgs/Humans humans

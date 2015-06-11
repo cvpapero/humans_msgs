@@ -48,6 +48,7 @@ find_package(catkin REQUIRED genmsg actionlib_msgs actionlib)
 add_message_files(
   FILES
   FacePosition.msg
+  Gaze.msg
   Person.msg
   Face.msg
   Joints.msg
@@ -64,8 +65,15 @@ add_service_files(
   FILES
 #   Service1.srv
   HumanSrv.srv
+  HumanImgSrv.srv
   HumansSrv.srv
   Int32.srv
+  Int32Srv.srv
+  DatabaseSrv.srv
+  ImageSrv.srv
+  QuerySrv.srv
+  StringSrv.srv
+  TimeZoneSrv.srv
 )
 
 ## Generate actions in the 'action' folder
