@@ -1,5 +1,5 @@
-geometry_msgs/Pose2D lt
-geometry_msgs/Pose2D rt
-geometry_msgs/Pose2D lb
-geometry_msgs/Pose2D rb
+humans_msgs/XY lt
+humans_msgs/XY rt
+humans_msgs/XY lb
+humans_msgs/XY rb
 uint32 conf
