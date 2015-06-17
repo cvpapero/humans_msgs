@@ -1,4 +1,4 @@
-float64 x
-float64 y
-float64 r
-uint32 conf
+Int32 x
+Int32 y
+Int32 r
+Int32 conf

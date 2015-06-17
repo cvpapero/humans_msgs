@@ -1,2 +1,2 @@
-float64 deg
-uint32 conf 
+Int32 deg
+Int32 conf 

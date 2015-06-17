@@ -1,4 +1,4 @@
-uint32 okao_id
+int32 okao_id
 uint32 hist
 uint32 conf
 string name

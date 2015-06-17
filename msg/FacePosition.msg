@@ -2,4 +2,4 @@ humans_msgs/XY lt
 humans_msgs/XY rt
 humans_msgs/XY lb
 humans_msgs/XY rb
-uint32 conf
+int32 conf

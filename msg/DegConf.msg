@@ -1,2 +1,2 @@
-uint32 deg
-uint32 conf 
+int32 deg
+int32 conf 

@@ -1,3 +1,3 @@
-uint32 x
-uint32 y
-uint32 conf 
+int32 x
+int32 y
+int32 conf 
