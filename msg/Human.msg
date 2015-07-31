@@ -1,6 +1,8 @@
 int32 state
+uint32 d_id
 int32 max_okao_id
 float64 max_hist
+float64 magni
 std_msgs/Header header
 geometry_msgs/Point p
 humans_msgs/Body body
