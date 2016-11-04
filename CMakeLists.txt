@@ -61,6 +61,9 @@ add_message_files(
   HumanAndImageArray.msg
   PersonPoseImg.msg
   PersonPoseImgArray.msg
+  Rotation.msg
+  FaceInfo.msg
+  FaceProp.msg
 )
 
 ## Generate services in the 'srv' folder
