@@ -64,6 +64,7 @@ add_message_files(
   Rotation.msg
   FaceInfo.msg
   FaceProp.msg
+  AudioData.msg
 )
 
 ## Generate services in the 'srv' folder

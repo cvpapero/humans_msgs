@@ -1,6 +1,0 @@
-bool src
----------
-#bool n
-std_msgs/Header header
-uint32 num
-humans_msgs/Human[] dst

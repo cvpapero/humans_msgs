@@ -1,4 +1,0 @@
-Header header
-humans_msgs/Person persons
-geometry_msgs/Pose poses
-sensor_msgs/Image images
